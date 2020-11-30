@@ -5,8 +5,8 @@ Vous pourrez accéder au site depuis le lien suivant : https://alban-safdari-sit
 (site déployé sur heroku)
 
 <h2>Logiciels utilisés :</h2>
-  - Brackets
-  - Github Desktop
-  - XAMPP
+  * Brackets
+  * Github Desktop
+  * XAMPP
   
  
