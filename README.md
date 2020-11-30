@@ -9,4 +9,6 @@ Vous pourrez accéder au site depuis le lien suivant : https://alban-safdari-sit
   * Github Desktop
   * XAMPP
   
+### Informations importante :
+les liens vers les réseaux sociaux sont factices étant données que je n'ai pas de réseau sociaux professionnels.
  
