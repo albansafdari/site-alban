@@ -1,0 +1,273 @@
+body {
+    width: 100%;
+}
+@font-face {
+    font-family: "DejaVu Sans Mono, monospace";
+}
+      
+/*fond*/
+body {
+    background-color: #e9ecf4;
+    color: #5a5151;
+    background-size: 100%100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    text-align: center;
+}
+
+/*titre*/
+h1 {
+    font-size: 190%;
+    padding: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#cv {
+    width: 60%;
+    display: grid;
+    border: 20px;
+    border-radius: 3px;
+    text-align: center;
+    grid-template-columns: 1fr;
+    background-color: #7d7e80;
+    margin: auto;
+    
+}
+
+hr {
+    height: 10px;
+    border: 3px;
+    color: #787b81;
+    background-color: #4e5157;
+    border-radius: 3px;
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*texte*/
+#textprincipal {
+    width: 40%;
+    padding: 1%;
+    margin-top: 1%;
+    font-size: 150%;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-size: 200%;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*menu*/
+.prenom{
+color:#182125;
+}
+.menu {
+    border: 4px;
+    border-radius: 3px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    font-size: 70%;
+}
+
+.menu .categorie {
+    border: 2px;
+    display: inline-block;
+    vertical-align: top;
+    background: #626b7c;
+    position: relative;
+    color:#5c6069;
+}
+
+.menu .categorie:hover {
+    color: white;
+    background-color: #787b81;
+}
+
+#réseau {
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #999da7;
+    position: fixed;
+    top: 80%;
+    display: grid;
+}
+
+#réseau img {
+    width: 60px;
+    height: 60px;
+}
+
+#barre {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+#barre1 {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#barre2 {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#barre,
+#barre1,
+#barre2 {
+    display: inline-block;
+
+}
+
+#forma img,
+#exp img {
+    margin-left: 20%;
+    float: left;
+    width: 150px;
+    height: 80px
+}
+
+#exp {
+    vertical-align: text-top;
+    margin-top: 5%;
+}
+
+#exp1,
+#exp2 {
+    margin-bottom: 5%;
+    margin-top: 10%;
+
+}
+
+#exp1 img,
+#exp2 img {
+    margin-left: 20%;
+    width:150px;
+    height: 100px;
+}
+
+.form-style {
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style .required {
+    color: red;
+}
+
+.form-style input[type=submit],
+.form-style input[type=reset] {
+    background: #d1dfe6;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+
+.form-style input[type=submit]:hover,
+.form-style input[type=reset]:hover {
+    background: #4eb5f1;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-style .field-textarea {
+    height: 100px;
+}
+
+.form-style input[type=text],
+.form-style input[type=email],
+textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.form-style .long {
+    width: 100%;
+}
+
+.form-style input[type=text]:focus,
+.form-style input[type=email]:focus,
+.form-style textarea:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+footer{
+    display: block;
+    background-color: #98c7cb;
+text-align: center;
+    line-height: 80px;
+    color:white;
+    width:100%;
+    height: 80px;
+    
+}
+
+#scroll_to_top img {
+    width: 50px;
+    position: fixed;
+    top: 70%;
+    left:95%;
+    display: grid;
+
+
+}
+
