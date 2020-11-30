@@ -16,7 +16,7 @@
 
         <img src="images/st.png" alt="fac" width="240" style="float: left;">
         <h3>Etudiant | Lycée Privée Sainte-Ursule | Premiere Année (2020) | Caen</h3>
-        <p>Après une seconde générale, je me suis orienté vers une première Sti2d EE et j'ai continué cette filière jusqu'au bac, que j'ai obtenu avec mention.</p>
+        <p>Après une premiere année en licence, je me suis orienté vers un BTS SIO que je continu actuellement.</p>
 
     </section>
     </div>
