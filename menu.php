@@ -38,7 +38,7 @@
         <!--introduction du sujet-->
         <section id="textprincipal">
             <h1>Alban Safdari</h1>
-            <p>Sérieux, passionné et plein de volonté !</p>
+            <p>Sérieux, volontaire et passionné !</p>
         </section>
     </article>
 
