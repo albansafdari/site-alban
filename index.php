@@ -50,7 +50,7 @@
     ?>
     
         <footer>
-            <p><a href="mentionlegal.html"> Mentions Légales Alban Safdari </a></p>
+            <p><a href="mentionlegal.html"> Mentions Légales Alban Safdari (2020) </a></p>
         </footer>
     
     <div id="scroll_to_top">
